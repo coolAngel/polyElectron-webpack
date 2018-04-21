@@ -1,0 +1,43 @@
+{
+  "name": "poly-electron",
+  "productName": "polyElectron",
+  "version": "0.0.1",
+  "description": "Electron meet Polymer2.0",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node webpack/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolAngel/polyElectron.git"
+  },
+  "keywords": [
+    "Electron",
+    "Polymer2.0"
+  ],
+  "author": "coolAngel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolAngel/polyElectron/issues"
+  },
+  "homepage": "https://github.com/coolAngel/polyElectron#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "electron": "1.8.4",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "polymer-webpack-loader": "^2.0.2",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.6.0",
+    "webpack-merge": "^4.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0"
+  }
+}

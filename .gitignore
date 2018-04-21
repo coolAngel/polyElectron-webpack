@@ -1,0 +1,17 @@
+# node modules directory
+node_modules
+
+# bower components directory
+bower_components
+
+# application distributions directory
+/dist
+
+# temp test directory
+/temp
+
+
+# ignore everything in 'app' folder what had been generated from 'src' folder
+/app/main.js
+/app/renderer.js
+/app/**/*.map
